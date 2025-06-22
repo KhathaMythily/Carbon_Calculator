@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carbon Calculator</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Carbon Footprint Calculator</h1>
+    <form id="carbonForm" autocomplete="off">
+      <label for="electricity">Monthly Electricity Use (kWh):</label>
+      <input type="number" id="electricity" placeholder="Enter kWh used per month" required>
+
+      <label for="transport">Monthly Driving Distance (km):</label>
+      <input type="number" id="transport" placeholder="Enter monthly km traveled" required>
+
+      <label for="diet">Diet Type:</label>
+      <select id="diet">
+        <option value="vegetarian">Vegetarian</option>
+        <option value="vegan">Vegan</option>
+        <option value="meat">Meat-based</option>
+      </select>
+
+      <label for="waterHeating">Monthly Hot Water Use (litres):</label>
+      <input type="number" id="waterHeating" placeholder="Enter hot water usage" required>
+
+      <label for="waterUse">Monthly Total Water Use (litres):</label>
+      <input type="number" id="waterUse" placeholder="Enter total water usage" required>
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+    <svg id="chart" width="400" height="400"></svg>
+  </div>
+
+  <script src="D3.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
