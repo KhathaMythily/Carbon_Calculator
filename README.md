@@ -15,6 +15,7 @@ A web-based tool that helps households estimate their annual CO₂ emissions and
 - 
 ## 📂 Project Structure
 carbon-calculator/
+
 ├── index.html      
 ├── styles.css      
 ├── script.js       
