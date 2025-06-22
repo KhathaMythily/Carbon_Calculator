@@ -39,3 +39,4 @@ You can run this Carbon Calculator web app in several ways:
 - Copy your project folder (e.g., carbon-calculator/) into: C:\xampp\htdocs\
 - Start Apache from XAMPP Control Panel.
 - Open browser at: http://localhost/carbon-calculator/index.html
+  
