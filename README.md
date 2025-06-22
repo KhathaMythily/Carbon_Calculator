@@ -15,10 +15,10 @@ A web-based tool that helps households estimate their annual CO₂ emissions and
 - 
 ## 📂 Project Structure
 carbon-calculator/
-├── index.html      # Main HTML file of the web app
-├── styles.css      # CSS styling for layout and design
-├── script.js       # JavaScript logic (includes D3.js code for visualization)
-├── d3.js           # Local copy of D3.js library (optional — if not using CDN)
+├── index.html      
+├── styles.css      
+├── script.js       
+├── d3.js           
 
 ## 🚀 How to Run the Project
 You can run this Carbon Calculator web app in several ways:
